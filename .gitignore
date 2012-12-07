@@ -1,10 +1,10 @@
 # git ignore file
 CustomTransportChannel.v11.suo
-CustomTransportChannelClient\bin\Debug*/
-CustomTransportChannelClient\obj\x86\Debug*/
-CustomTransportChannelLibrary\bin\Debug*/
-CustomTransportChannelLibrary\obj\Debug*/
-CustomTransportChannelService\bin\Debug*/
-CustomTransportChannelService\obj\x86\Debug*/
-SharedContracts\bin\Debug*/
-SharedContracts\obj\Debug*/
+CustomTransportChannelClient\bin\**\*
+CustomTransportChannelClient\obj\**\*
+CustomTransportChannelLibrary\bin\**\*
+CustomTransportChannelLibrary\obj\**\*
+CustomTransportChannelService\bin\**\*
+CustomTransportChannelService\obj\**\*
+SharedContracts\bin\**\*
+SharedContracts\obj\**\*
