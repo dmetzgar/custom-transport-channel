@@ -9,9 +9,7 @@ namespace CustomTransportChannelClient
     {
         static void Main(string[] args)
         {
-            Binding binding = new FileTransportBinding();
-            Uri uri = new Uri("my.file://localhost/x");
-            ReverseClient client = new ReverseClient(binding, new EndpointAddress(uri));
+            ReverseClient client = new ReverseClient("ReverseClient");
 
             while (true)
             {

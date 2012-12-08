@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Channels" />
@@ -49,6 +50,7 @@
     <Compile Include="FileRequestChannel.cs" />
     <Compile Include="FileRequestContext.cs" />
     <Compile Include="FileTransportBinding.cs" />
+    <Compile Include="FileTransportBindingConfigurationElement.cs" />
     <Compile Include="FileTransportBindingElement.cs" />
     <Compile Include="FileRequestChannelFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

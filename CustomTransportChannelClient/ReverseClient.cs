@@ -6,6 +6,11 @@ namespace CustomTransportChannelClient
 {
     class ReverseClient : ClientBase<IReverse>, IReverse
     {
+        public ReverseClient(string endpointConfigName)
+            : base(endpointConfigName)
+        {
+        }
+
         public ReverseClient(Binding binding, EndpointAddress remoteAddress) :
             base(binding, remoteAddress)
         {

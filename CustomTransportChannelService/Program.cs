@@ -10,11 +10,8 @@ namespace CustomTransportChannelService
     {
         static void Main(string[] args)
         {
-            Binding binding = new FileTransportBinding();
-            Uri uri = new Uri("my.file://localhost/x");
             using (ServiceHost serviceHost = new ServiceHost(typeof(Reverse)))
             {
-                serviceHost.AddServiceEndpoint(typeof(IReverse), binding, uri);
                 serviceHost.Open();
 
                 Console.WriteLine("The service is ready.");
